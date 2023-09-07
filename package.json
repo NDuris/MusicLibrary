@@ -1,0 +1,16 @@
+{
+  "name": "musiclibrary",
+  "version": "1.0.0",
+  "description": "Music Library Project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicki Duris Rasmussen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}

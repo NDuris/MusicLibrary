@@ -1,0 +1,140 @@
+/* Apply a basic reset to remove default margin and padding */
+body, h1, h2, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color, padding, and text alignment */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style the main content area with padding */
+main {
+    padding: 20px;
+}
+
+/* Style the artist table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style the table headers */
+th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer; /* Add a pointer cursor for sorting */
+}
+
+/* Style the table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style the table cells */
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Add hover effect on table rows */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style links */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for the edit-artist page */
+
+/* Center-align the form elements and set max-width */
+.edit-artist-container {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Create a flex container for the form and image */
+.form-and-image-container {
+    display: flex;
+    flex-direction: row; /* Display elements in a row (side by side) */
+    justify-content: space-between; /* Put space between the form and image */
+    align-items: flex-start; /* Align items at the top */
+    margin-bottom: 20px; /* Add spacing between the container and Go Back button */
+}
+
+/* Style each label and input field */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Style the page title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Hide the current artist information section */
+.artist-info {
+    display: none;
+}
+
+/* Style the Go Back button */
+#go-back-button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Style the Go Back button on hover */
+#go-back-button:hover {
+    background-color: #005499;
+}
+
+/* Style the artist image */
+.artist-image {
+    width: 100px; /* Set the width to your desired value */
+    max-height: 150px; /* Set the maximum height as needed */
+    margin-left: 20px; /* Add spacing between the form and image */
+}
